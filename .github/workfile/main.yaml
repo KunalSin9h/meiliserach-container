@@ -1,0 +1,20 @@
+on: 
+  push: 
+    branches: [master]
+  pull_request: 
+
+jobs:
+  build:
+    name: "Build Docker Image"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: build
+        run: |
+          docker build -t ghcr.io/kunalsin9h/meilisearch:latest .
+      - name: push
+        if: github.ref == 'refs/heads/master'
+        run: |
+          echo "${{ secrets.GHCR }}" | docker login ghcr.io -u "kunalsin9h" --password-stdin
+          docker push ghcr.io/kunalsin9h/meilisearch:latest
+
