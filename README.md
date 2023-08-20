@@ -15,6 +15,8 @@ docker run \
    ghcr.io/kunalsin9h/meilisearch:latest
 ```
 
+#### Run using Docker Compose
+
 ```yaml
 # docker-compose.yaml
 version: "3"
@@ -28,9 +30,7 @@ services:
     deploy:
       mode: global
     volumes:
-      - ./meilisearch/data.ms:/meilisearch/data.ms
+      - ./data.ms:/meilisearch/data.ms
     environment:
       MEILI_MASTER_KEY: "--make-a-key--"
-      MEILI_IGNORE_DUMP_IF_DB_EXISTS: true
-      MEILI_IGNORE_MISSING_DUMP: true
 ```
