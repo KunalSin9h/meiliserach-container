@@ -6,4 +6,4 @@ RUN apk add curl
 
 RUN curl -L https://install.meilisearch.com | sh
 
-ENTRYPOINT ["./meilisearch"]
+ENTRYPOINT ["./meilisearch", "--no-analytics"]

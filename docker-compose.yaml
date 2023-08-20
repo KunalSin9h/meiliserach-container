@@ -1,10 +1,3 @@
-# meilisearch-container
-Docker container to run meilisearch
-
-## Example
-
-```yaml
-# docker-compose.yaml
 version: "3"
 
 services:
@@ -21,4 +14,4 @@ services:
       MEILI_MASTER_KEY: "--make-a-key--"
       MEILI_IGNORE_DUMP_IF_DB_EXISTS: true
       MEILI_IGNORE_MISSING_DUMP: true
-```
+
