@@ -1,9 +1,11 @@
-FROM alpine:latest 
+FROM ubuntu:latest 
 
 WORKDIR /meilisearch
 
-RUN apk add curl
+RUN apt-get install curl
 
 RUN curl -L https://install.meilisearch.com | sh
 
-ENTRYPOINT ["./meilisearch", "--no-analytics"]
+RUN chmod +x ./meilisearch
+
+ENTRYPOINT ["./meilisearch"]
