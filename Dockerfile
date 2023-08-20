@@ -9,4 +9,6 @@ RUN curl -L https://install.meilisearch.com | sh
 
 RUN chmod +x ./meilisearch
 
+RUN mkdir data.ms
+
 ENTRYPOINT ["./meilisearch", "--no-analytics", "--http-addr", "0.0.0.0:7700"]
