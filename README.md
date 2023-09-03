@@ -1,6 +1,6 @@
 # meilisearch-container
 
-![meilisearch logo](https://tiddi.kunalsin9h.com/mDMI88F)
+![meilisearch logo](https://tiddi.kunalsin9h.com/3RO2ode)
 
 Docker container to run [meilisearch v1.3.1](https://github.com/meilisearch/meilisearch)
 
