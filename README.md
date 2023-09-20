@@ -4,6 +4,7 @@
 
 Docker container to run [meilisearch v1.3.1](https://github.com/meilisearch/meilisearch)
 
+[![.github/workflows/main.yaml](https://github.com/KunalSin9h/meiliserach-container/actions/workflows/main.yaml/badge.svg)](https://github.com/KunalSin9h/meiliserach-container/actions/workflows/main.yaml)
 
 ## Example
 
