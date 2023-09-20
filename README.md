@@ -1,8 +1,8 @@
 # meilisearch-container
 
-![meilisearch logo](https://tiddi.kunalsin9h.com/3RO2ode)
+![meilisearch logo](https://tiddi.kunalsin9h.com/Z3brA93)
 
-Docker container to run [meilisearch v1.3.1](https://github.com/meilisearch/meilisearch)
+Docker container to run [meilisearch v1.3.5](https://github.com/meilisearch/meilisearch)
 
 [![.github/workflows/main.yaml](https://github.com/KunalSin9h/meiliserach-container/actions/workflows/main.yaml/badge.svg)](https://github.com/KunalSin9h/meiliserach-container/actions/workflows/main.yaml)
 
