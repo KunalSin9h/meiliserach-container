@@ -1,6 +1,6 @@
 # meilisearch-container
 
-Docker container to run [meilisearch v1.3.5](https://github.com/meilisearch/meilisearch)
+Docker container to run [meilisearch v1.6.1](https://github.com/meilisearch/meilisearch)
 
 ## Example
 
