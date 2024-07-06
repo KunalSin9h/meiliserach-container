@@ -8,7 +8,7 @@ jobs:
     name: "Build Docker Image"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: build
         run: |
           docker build -t ghcr.io/kunalsin9h/meilisearch:latest .

@@ -11,6 +11,6 @@ RUN chmod +x ./meilisearch
 
 RUN mkdir data.ms
 
-ENV MEILISEARCH_VERSION=1.6.1
+ENV MEILISEARCH_VERSION=1.9.0
 
 ENTRYPOINT ["./meilisearch", "--no-analytics", "--http-addr", "0.0.0.0:7700"]
