@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  meilisearch:
+    image: ghcr.io/kunalsin9h/meilisearch:latest
+    ports:
+      - "7700:7700"
+    restart: always
+    deploy:
+      mode: global
+    volumes:
+      - ~/data/meili.ms:/meilisearch/data.ms
+    env_file:
+      - ~/secrets/meili
